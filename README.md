@@ -15,5 +15,8 @@ The cartridge is using a *JS28F128M29EWH* as a flash storage to store the game a
 |     H | Highest block protected by VPP/WP#; uniform block |
 
 
+## Front
+![pinout](docs/pinout_front.png)
 
-![pinout](docs/pinout.png)
+## Back
+![pinout](docs/pinout_back.png)
