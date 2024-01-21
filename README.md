@@ -10,7 +10,7 @@ The cartridge of interest was bought on [Aliexpress over here](https://de.aliexp
 ## Back
 ![pinout](docs/pinout_back.png)
 
-# Hardware 
+# Components 
 
 The cartridge is using a *JS28F128M29EWH* as a flash storage to store the game and *KM68U1000ELTGI-10L* as SRAM for the savegame. 
 
@@ -32,4 +32,13 @@ The cartridge is using a *JS28F128M29EWH* as a flash storage to store the game a
 |     H | Highest block protected by VPP/WP#; uniform block |
 
 
+## What was my approach?
 
+1. Find out which components are on the PCB
+2. Follow the traces
+3. Remove the COB to find the pinout beneath
+?. Create gerber files without the COB
+?. ???
+?. Make an own mapper to replace the COB
+?. ???
+?. Create gerber files including the own mapper
