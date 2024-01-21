@@ -20,3 +20,4 @@ The cartridge is using a *JS28F128M29EWH* as a flash storage to store the game a
 
 ## Back
 ![pinout](docs/pinout_back.png)
+
