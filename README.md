@@ -34,11 +34,11 @@ The cartridge is using a *JS28F128M29EWH* as a flash storage to store the game a
 
 ## What was my approach?
 
-1. Find out which components are on the PCB
-2. Follow the traces
-3. Remove the COB to find the pinout beneath
-?. Create gerber files without the COB
-?. ???
-?. Make an own mapper to replace the COB
-?. ???
-?. Create gerber files including the own mapper
+1. Find out which components are on the PCB   
+2. Follow the traces   
+3. Remove the COB to find the pinout beneath   
+?. Create gerber files without the COB   
+?. ???   
+?. Make an own mapper to replace the COB   
+?. ???   
+?. Create gerber files including the own mapper   
