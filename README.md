@@ -15,11 +15,11 @@ The cartridge of interest was bought on [Aliexpress over here](https://de.aliexp
 The cartridge is using a *JS28F128M29EWH* as a flash storage to store the game and *KM68U1000ELTGI-10L* as SRAM for the savegame. 
 
 
-1x JS28F128M29EWH
-1x KM68U1000ELTGI-10L
-1x Unknown 60 pin COB (Chip on Board)
-1x 0603 Zero Ohm Resistor
-1x 0603 ??? uF Capacitor
+* 1x JS28F128M29EWH
+* 1x KM68U1000ELTGI-10L
+* 1x Unknown 60 pin COB (Chip on Board)
+* 1x 0603 Zero Ohm Resistor
+* 1x 0603 ??? uF Capacitor
 
 
 **JS28F128M29EWH**
@@ -32,6 +32,4 @@ The cartridge is using a *JS28F128M29EWH* as a flash storage to store the game a
 |     H | Highest block protected by VPP/WP#; uniform block |
 
 
-## What was my approach?
 
-1. F
