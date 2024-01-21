@@ -4,6 +4,19 @@ The aim of this repository is to reverse engineer a chinese produced GBA reprodu
 The cartridge of interest was bought on [Aliexpress over here](https://de.aliexpress.com/item/1005005879617919.html).
 
 
+## So whats the approach?
+
+1. [x] Find out which components are on the PCB
+2. [x] Remove the SRAM/FLASH-Chips to find the pinout beneath
+3. [x] Remove the COB to find the pinout beneath
+4. [x] Follow the traces 
+5. [ ] Create gerber files without the COB 
+6. [ ] ??? 
+7. [ ] Make an own mapper to replace the COB 
+8. [ ] ??? 
+9. [ ] Create gerber files including the own mapper 
+
+
 ## Front
 ![pinout](docs/pinout_front.png)
 
@@ -30,15 +43,3 @@ The cartridge is using a *JS28F128M29EWH* as a flash storage to store the game a
 |   128 | 128Mbit = 16 Megabyte | 
 | M29EW | Embedded Flash memory (3V core, page read) |
 |     H | Highest block protected by VPP/WP#; uniform block |
-
-
-## What was my approach?
-
-1. Find out which components are on the PCB   
-2. Follow the traces   
-3. Remove the COB to find the pinout beneath   
-?. Create gerber files without the COB   
-?. ???   
-?. Make an own mapper to replace the COB   
-?. ???   
-?. Create gerber files including the own mapper   
